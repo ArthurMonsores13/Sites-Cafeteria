@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café & Conforto</title>
+    <link href="./styles/styles.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('./images/foto-interior-de-um-cafe-com-cadeiras-perto-do-bar-com-mesas-de-madeira.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100vh; 
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Café & Conforto</h1>
+        </div>
+        <ul>
+            <a href="https://fairmontrio.com/cafe-coaco/" target="_blank">Contato</a>
+            <a href="https://www.google.com/maps/dir/-22.4542165,-43.4741091/Coa%26Co+local/@-22.7187033,-43.7696495,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x9bd51722a758bd:0x6838d258ffd2153c!2m2!1d-43.1895056!2d-22.9860445?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Local</a>
+        </ul>
+    </header>
+    
+
+    <main>
+        
+        <aside>
+            <h2>SINTA-SE EM CASA!</h2>
+            <h3>COM A PAZ E TRANQUILIDADE DO NOSSO LOCAL</h3> 
+        </aside>
+<h4>
+    <button id="openSiteButton">Nosso Menu!!</button>
+</h4>
+    </main>
+    <script>
+        
+        const button = document.getElementById('openSiteButton');
+
+        
+        button.addEventListener('click', function() {
+            
+            window.open('./menu.html', '_blank');
+        });
+    </script>
+</body>
+</html>

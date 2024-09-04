@@ -1,0 +1,20 @@
+body {
+    background-color: burlywood;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets da lista */
+    padding: 0; /* Remove padding padrão */
+}
+
+li {
+    display: flex; /* Alinha itens de lista horizontalmente */
+    align-items: center; /* Alinha verticalmente no centro */
+    margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+.imagem {
+    width: 150px; /* Define a largura das imagens */
+    margin-left: 15px; /* Espaçamento entre a imagem e o texto */
+}
